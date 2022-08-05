@@ -113,7 +113,7 @@ def pathMover(src, dest):
                     continue
                 else:
                     rect = pygame.Rect(20 * col, 20 * row, 19, 19)
-                    pygame.draw.rect(screen, grey, rect)
+                    pygame.draw.rect(screen, turquoise, rect)
                     pygame.display.update()
     if not ok:
         return -1
@@ -203,7 +203,7 @@ while gameOn:
                     pathFound = 0
                     continue
                 rect = pygame.Rect(20 * i[1], 20 * i[0], 19, 19)
-                pygame.draw.rect(screen, turquoise, rect)
+                pygame.draw.rect(screen, green, rect)
                 pygame.display.update()
 
         pygame.display.update()
